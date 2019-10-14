@@ -16,6 +16,13 @@
 [![deps dev](https://david-dm.org/getsentry/sentry-cordova/dev-status.svg)](https://david-dm.org/getsentry/sentry-cordova?type=dev&view=list)
 [![deps peer](https://david-dm.org/getsentry/sentry-cordova/peer-status.svg)](https://david-dm.org/getsentry/sentry-cordova?type=peer&view=list)
 
+## Building a release
+- make sure you have npm, make and carthage installed
+- run `npm install`
+- run `make`
+- run `npm run build`
+- run `npm pack`
+
 **This is a beta release**
 
 ## Usage
